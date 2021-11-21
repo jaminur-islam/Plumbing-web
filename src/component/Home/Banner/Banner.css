@@ -1,0 +1,50 @@
+.full-banner {
+  background-color: #4c8fe5;
+}
+.banner-container {
+  background: url("../../../logo-img/bg-heder.jpg") no-repeat;
+  background-size: cover;
+  background-size: center center;
+  height: 91.3vh;
+  padding: 30px 0;
+  border-radius: 0 0 500px 500px;
+  /* border-radius: 250px; */
+}
+
+.banner-container .banner-img {
+  width: 450px;
+  padding: 10px;
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.banner-content h1 {
+  font-size: 90px;
+  width: 60%;
+  margin: 0;
+  padding: 0;
+}
+
+.banner-content p {
+  width: 55%;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 560px) {
+  .banner-content {
+    flex-direction: column;
+  }
+
+  .banner-container .banner-img {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .banner-container {
+    height: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+.details-banner {
+  height: 50vh;
+  background: linear-gradient(rgba(6, 98, 184, 0.9), rgba(10, 120, 184, 0.9)),
+    url("../../../logo-img/bn.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 560px) {
+  .details-banner {
+    height: 25vh;
+  }
+}
